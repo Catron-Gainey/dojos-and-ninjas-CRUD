@@ -19,8 +19,6 @@ class Ninja:
         self.dojo_id = data['dojo_id']
         self.created_at = data['created_at']
         self.updated_at = data['updated_at']
-        # What changes need to be made above for this project?
-        #What needs to be added here for class association?
 
     @classmethod
     def save(cls, data):
